@@ -42,7 +42,6 @@
     height: 41px;
     background: url(Bumper.png);
 	opacity: 0;
-    transition: opacity 100ms ease-out;
 }
 
 .ds4 .bumpers {
@@ -55,6 +54,11 @@
 
 .ds4 .bumper.pressed {
     opacity: 1;
+    transition: opacity 0s;
+}
+
+.ds4 .bumper:not(.pressed) {
+  transition: opacity 60ms linear;
 }
 
 .ds4 .bumper.left {
