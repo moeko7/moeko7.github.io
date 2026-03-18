@@ -58,7 +58,7 @@
 }
 
 .ds4 .bumper:not(.pressed) {
-  transition: opacity 60ms linear;
+  transition: opacity 100ms linear;
 }
 
 .ds4 .bumper.left {
