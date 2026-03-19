@@ -58,7 +58,7 @@
 }
 
 .ds4 .bumper:not(.pressed) {
-  transition: opacity 100ms linear;
+  transition: opacity 80ms cubic-bezier(.1, .9, .1, 1);
 }
 
 .ds4 .bumper.left {
@@ -110,7 +110,7 @@
 }
 
 .ds4 .back.pressed, .ds4 .start.pressed {
-    opacity: 1;
+    opacity: 1; 
 }
 
 .ds4 .back {
